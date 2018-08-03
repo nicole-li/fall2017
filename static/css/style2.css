@@ -35,7 +35,7 @@ a.nav-item:not(.button):hover {
 }
 
 .purple{
-  color: #982297;
+  color: #2cb5e8;
 }
 
 #section-faq p {
@@ -129,7 +129,8 @@ ul.text-large p{
 }
 
 .gradient-background {
-  background: linear-gradient(45deg,#B614C0,#EB8951);
+  /* background: linear-gradient(45deg,#B614C0,#EB8951); */
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 .gradient-background p {
@@ -184,7 +185,7 @@ h2 {
 }
 
 .text-stories-title{
-  color: #982297;
+  color: #2cb5e8;
   font-size: 1.5rem;
   margin-bottom: 0.2rem;
 }
@@ -233,19 +234,19 @@ h2 {
 
 .day-toggle {
   height: 56px;
-  background-color: #B13586;
+  background-color: #2cb5e8;
   margin-right: 20px;
   padding: 18px 54px;
 }
 
 #friday-toggle {
-  background-color: #8F2A6B;
+  background-color: #27a2d0;
 }
 
 .day-toggle:hover {
-  background-color: #8F2A6B;
+  background-color: #27a2d0;
   transition: 0.5s;
-  box-shadow: 0 0 10px rgba(154, 42, 115, 0.8);
+  box-shadow: 1px 1px 3px 2px #27a2d0;
 }
 
 @media (max-width: 600px) {
